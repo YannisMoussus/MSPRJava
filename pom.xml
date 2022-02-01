@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>MSPR Dev App</artifactId>
+    <artifactId>mspr_dev_app</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
