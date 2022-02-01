@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn -f /var/lib/jenkins/workspace/MSPRJava_main/ProjetMSPR-main/pom.xml -B -DskipTests clean package' 
+                sh 'mvn -f -B -DskipTests clean package' 
             }
         }
     }
