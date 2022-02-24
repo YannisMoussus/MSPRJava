@@ -28,23 +28,23 @@ The java code is made to work with Apache on a linux server, and so, create all 
 
 ## Java Infos
 ***
-Built with OpenJDK 11
+✏️ Built with OpenJDK 11
 
-To run it you need to have Java
+✏️ To run it you need to have Java
 
-You can build it with maven
+✏️ You can build it with maven
 
 ## Environment Setup
 ***
-Continuous Integration/Delivery with Jenkins
+🚀 Continuous Integration/Delivery with Jenkins
 
 ## Authors
 ***
-Barbier Chad - _Developper_
+👨‍💻 Barbier Chad - _Developper_
 
-Moussus Yannis - _Developper_
+👨‍💻 Moussus Yannis - _Developper_
 
-EL Fanniche Salim - _Developper_
+👨‍💻 EL Fanniche Salim - _Developper_
 
-Rafanomezantsoa Ando - _Developper_
+👨‍💻 Rafanomezantsoa Ando - _Developper_
 
