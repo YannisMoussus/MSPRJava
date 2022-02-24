@@ -1,12 +1,12 @@
-MSPRB3Dev
+#MSPRB3Dev
 
 This is the MSPR project of the third year at EPSI Nantes. Project Duration : 20h.
 
-IMPORTANT INFOS
+## Important Infos
+***
+The java code is made to work with Apache on a linux server, and so, create all the files in "/var/www/html/MSPRJava" - see the "How to Build" part.
 
-The java code is made to work with Apache on a linux server, and so, create all the files in "/var/www/html/msprb3" - see the "How to Build" part.
-
-- The Java Program :
+  The Java Program :
 
     0 - Works on multi Threads;
     
@@ -22,26 +22,29 @@ The java code is made to work with Apache on a linux server, and so, create all 
     
     6 - Create .htpasswd from password in text files;
     
-TO START
-
+## To Start
+***
         git clone https://github.com/YannisMoussus/MSPRJava.git
 
-JAVA INFO
-
+## Java Infos
+***
 Built with OpenJDK 11
 
 To run it you need to have Java
 
 You can build it with maven
 
-ENVIRONMENT SETUP
-
+## Environment Setup
+***
 Continuous Integration/Delivery with Jenkins
 
-AUTHORS
+## Authors
+***
+Barbier Chad - _Developper_
 
-Barbier Chad - Developper
-Moussus Yannis - Developper
-EL Fanniche Salim - Developper
-Rafanomezantsoa Ando - Developper
+Moussus Yannis - _Developper_
+
+EL Fanniche Salim - _Developper_
+
+Rafanomezantsoa Ando - _Developper_
 
