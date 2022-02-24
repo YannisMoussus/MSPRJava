@@ -3,7 +3,7 @@
 This is the MSPR project of the third year at EPSI Nantes. Project Duration : 20h.
 
 ## Important Infos
-***
+
 The java code is made to work with Apache on a linux server, and so, create all the files in "/var/www/html/MSPRJava" - see the "How to Build" part.
 
   The Java Program :
@@ -23,11 +23,11 @@ The java code is made to work with Apache on a linux server, and so, create all 
     6 - Create .htpasswd from password in text files;
     
 ## To Start
-***
+
         git clone https://github.com/YannisMoussus/MSPRJava.git
 
 ## Java Infos
-***
+
 ✏️ Built with OpenJDK 11
 
 ✏️ To run it you need to have Java
@@ -35,11 +35,11 @@ The java code is made to work with Apache on a linux server, and so, create all 
 ✏️ You can build it with maven
 
 ## Environment Setup
-***
+
 🚀 Continuous Integration/Delivery with Jenkins
 
 ## Authors
-***
+
 👨‍💻 Barbier Chad - _Developper_
 
 👨‍💻 Moussus Yannis - _Developper_
