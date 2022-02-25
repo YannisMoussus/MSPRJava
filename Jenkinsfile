@@ -16,14 +16,14 @@ pipeline {
                 script {
                     deploy adapters: [
                         tomcat9(
-                            credentialsId: '',
+                            credentialsId: 'tomcat_credential',
                             path: '',
                             url: 'http://172.16.89.68:8081'
                         )
                     ],
                     contextPath: '/pipeline',
                     onFailure: false,
-                    war: '*/target/*.war'
+                    war: '**/*.war'
                 }
             }
         }
