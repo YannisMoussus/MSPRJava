@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     deploy adapters: [
-                        tomcat(
+                        tomcat10(
                             credentialsId: '',
                             path: '',
                             url: 'http://172.16.89.68:8081'
