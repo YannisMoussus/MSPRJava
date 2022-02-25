@@ -11,5 +11,21 @@ pipeline {
                 sh 'mvn -B -DskipTests clean package' 
             }
         }
+        stage('Deploy') {
+            steps {
+                script {
+                    deploy adapters: [
+                        tomcat(
+                            credentialsId: '',
+                            path: '',
+                            url: 'http://172.16.89.68:8081'
+                        )
+                    ],
+                    contextPath: '/pipeline',
+                    onFailure: false,
+                    war: '*/target/*.war'
+                }
+            }
+        }
     }
 }
