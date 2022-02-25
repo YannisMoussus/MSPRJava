@@ -2,6 +2,5 @@ cberthier
 sconnor
 jmacclane
 agent1
-Chad
 test
 yalain
