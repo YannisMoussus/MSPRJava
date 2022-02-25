@@ -11,21 +11,14 @@ pipeline {
                 sh 'mvn -B -DskipTests clean package' 
             }
         }
+        stage('Test') {
+            steps {
+                writeFile(file: 'status.txt', text: 'It worked!!!!')
+            }
         stage('Deploy') {
             steps {
-                script {
-                    deploy adapters: [
-                        tomcat9(
-                            credentialsId: 'admin_admin',
-                            path: '',
-                            url: 'http://172.16.89.68:8081'
-                        )
-                    ],
-                    contextPath: '/pipeline',
-                    onFailure: false,
-                    war: '**/*.war'
-                }
+                writeFile(file: 'status.txt', text: 'Deploy accepted!!!')
             }
-        }
+        } 
     }
 }
