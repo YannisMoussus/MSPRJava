@@ -15,6 +15,7 @@ pipeline {
             steps {
                 writeFile(file: 'status.txt', text: 'It worked!!!!')
             }
+        }
         stage('Deploy') {
             steps {
                 writeFile(file: 'status.txt', text: 'Deploy accepted!!!')
