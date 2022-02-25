@@ -16,7 +16,7 @@ pipeline {
                 script {
                     deploy adapters: [
                         tomcat9(
-                            credentialsId: 'tomcat_credential',
+                            credentialsId: 'admin_admin',
                             path: '',
                             url: 'http://172.16.89.68:8081'
                         )
