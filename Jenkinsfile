@@ -13,8 +13,13 @@ pipeline {
         }
         stage('Test') {
             steps {
-                writeFile(file: 'status.txt', text: 'It worked!!!!')
-            }
+                 sh 'mvn test'
+             }
+                 post {
+                        always {
+                            junit 'target/classes/Gestionhtmltest.class'
+                        }
+                 }
         }
         stage('Deploy') {
             steps {
