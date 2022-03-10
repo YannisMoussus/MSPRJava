@@ -44,7 +44,7 @@ The java code is made to work with Apache on a linux server, and so, create all 
 
 👨‍💻 Moussus Yannis - _Developper_
 
-👨‍💻 EL Fanniche Salim - _Developper_
+👨‍💻 [EL Fanniche Salim](https://github.com/Salim212) - _Developper_
 
 👨‍💻 Rafanomezantsoa Ando - _Developper_
 
